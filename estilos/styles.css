@@ -70,7 +70,7 @@ background-color: #406651;
   height: 3em;
   }
 
-  @media screen and (max-width:768px){
+  @media screen and (min-width:768px){
     .descripcion p{
       font-size: 1em;
     }
@@ -95,6 +95,14 @@ background-color: #406651;
     .selector img{
       scale: 0.5;
     }
+
+    .fotos_g{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+       
+    
   }
 
 .principal {
@@ -137,7 +145,6 @@ background-color: #406651;
 .pie_de_pag {
   background-color: #406651;
   text-align: center;
-  margin-top: 5%;
   padding-top: 0.5em;
 }
 
@@ -155,10 +162,10 @@ background-color: #406651;
 
 
 .selector {
-  display: flexbox;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  text-align: center;
+  justify-content: center;
   padding-top: 1em;
   padding-bottom: 1em;
   background-color: #1EE4E6;
@@ -186,31 +193,43 @@ background-color: #406651;
 }
 
 .gal {
-  width: 100%;
+  width: 80%;
   padding-bottom: 5em;
   padding-top: 2em;  
   padding-left: 1em;
   padding-right: 1em;
-  background-color: #406651;
+  background-color: #406651;  
+}
+
+.gal_bebes{
+  border-radius: 1em 1em 0em 0em;
+}
+
+.gal_accesorios{
+  border-radius: 0em 0em 1em 1em;
+  margin-bottom: 4em;
 }
 
 .gal img{
   width: 100%;
   height: 100%;
-  border: outset 1dvh #438F91;
+  border: outset 0.5dvh #438F91;
+  border-radius: 1em;
 }
 
 .fotos_g{
-  width: 100%;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 2em;
-  column-gap: 2em;   
+  column-gap: 2em;    
+
 }
 
 .galerias{
-  background-color: #406651;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E6691E;
 }
-
 
 
