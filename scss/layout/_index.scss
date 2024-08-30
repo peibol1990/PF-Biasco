@@ -1,0 +1,98 @@
+
+.encabezado {
+    top: 0%;  
+  }
+
+  .principal {
+    background-color: #438F91;
+    margin-top: 2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .descripcion {
+    color: #E69E1E;
+    font-size: 1.5em;
+    width: 70%;
+    text-align: justify;  
+    font-weight: bolder;
+    padding-top: 2em;
+  }
+  
+  .gal_index {
+    width: 80%;
+    margin-top: 3em;
+  }
+  
+  .gal_index img {  
+    border: solid 3px #E6691E;
+    border-radius: 2em;
+  
+  }
+  
+  .gal_index iframe {  
+    text-align: center;  
+    margin-top: 4em;
+    border: solid 3px #E6691E;
+    border-radius: 2em;
+    margin-bottom: 2em;
+  }
+
+  .pie_de_pag {
+    background-color: #406651;
+    text-align: center;
+    padding-top: 0.5em;
+
+    p {
+        font-size: 1.5em;
+        color: #1EE4E6;
+      }
+
+      redes{
+         a{ 
+            img {
+        height: 50px;
+        width: 50px;
+      }
+    }
+    }   
+  }
+
+
+  .selector {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #1EE4E6;
+
+    img {
+        height: 10em;
+        width: 10em;
+      }
+  }
+  
+  
+  .filtros {
+    background-color: #E6691E;
+    color: #406651;
+    padding: 2em;
+  }
+
+  .navegador {
+    width: 100%;
+  }
+  
+  .promociones_y_beneficios img {
+    width: 100%;
+  }
+
+  
+  
+  
+  
+ 

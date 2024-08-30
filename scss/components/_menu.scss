@@ -1,0 +1,75 @@
+
+.navbar{
+    menu_nombre{
+        display: flex;
+        align-items: center; 
+        margin-left: 40%;
+        margin-right: 40%;
+      }
+
+      navbar_ppal{
+        background-color: #406651;
+      }
+
+      
+      menu_logo{
+        background-color: #406651;
+
+        &:hover{
+            background-color: #438F91;
+        }
+
+        img{
+            height: 5em;
+            width: 5em;
+        }
+      }
+
+      menu_desplegable{
+        background-color: #406651;
+
+        &:hover{
+            background-color: #438F91;
+        }
+        }
+
+        li{
+            a{
+                color: #1EE4E6;
+            }
+        }
+
+        menu_sec{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+          }
+          
+          btn_buscar{
+             border:solid 0.3em #E6691E;
+             color: #1EE4E6;
+          }
+          
+          tb_buscar{
+            border: solid 0.3em #E6691E;
+          }
+          
+          .menu_iconos{
+
+            img{
+            width: 3em;
+            height: 3em;
+            }
+        }
+
+}
+
+  
+  
+  
+  
+ 
+  
+
+  
+  
