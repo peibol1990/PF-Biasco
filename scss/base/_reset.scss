@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap');
+@import "../base/vars";
 
-* {
+@mixin parametros-reset{
   padding: 0;
   margin: 0;
   font-style: normal;
   text-decoration: none;
   list-style: none;
-  font-family: "Cairo Play", sans-serif;  
+  font-family: $fuente-gral;  
 }
+
+
+*{
+   @include parametros-reset;
+}
+
+
 

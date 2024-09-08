@@ -20,17 +20,24 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
+    
+      .img{
+        scale: 0.5;
+      }
     }
-
-    .selector img{
-      scale: 0.5;
-    }
-
-    .fotos_g{
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-    }
+  
        
+    .galerias{
+      display: flex;
+      .gal{
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+
+      .fotos_g{
+        display:grid;      
+        grid-template-columns: 1fr;
+      }
+    }
     
   }

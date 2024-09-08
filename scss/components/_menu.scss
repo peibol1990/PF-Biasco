@@ -1,22 +1,23 @@
+@import "../base/vars";
 
 .navbar{
-    menu_nombre{
+    .menu_nombre{
         display: flex;
         align-items: center; 
         margin-left: 40%;
         margin-right: 40%;
       }
 
-      navbar_ppal{
-        background-color: #406651;
+      .navbar_ppal{
+        background-color: $verde-fuerte;
       }
 
       
-      menu_logo{
+      .menu_logo{
         background-color: #406651;
 
         &:hover{
-            background-color: #438F91;
+            background-color: $verde-medio;
         }
 
         img{
@@ -25,33 +26,33 @@
         }
       }
 
-      menu_desplegable{
-        background-color: #406651;
+      .menu_desplegable{
+        background-color: $verde-fuerte;
 
         &:hover{
-            background-color: #438F91;
+            background-color: $verde-medio;
         }
         }
 
         li{
             a{
-                color: #1EE4E6;
+                color: $verde-claro;
             }
         }
 
-        menu_sec{
+        .menu_sec{
             display: flex;
             justify-content: space-around;
             align-items: center;
           }
           
-          btn_buscar{
-             border:solid 0.3em #E6691E;
-             color: #1EE4E6;
+          .btn_buscar{
+             border:solid 0.3em $naranja;
+             color: $verde-claro;
           }
           
-          tb_buscar{
-            border: solid 0.3em #E6691E;
+          .tb_buscar{
+            border: solid 0.3em $naranja;
           }
           
           .menu_iconos{

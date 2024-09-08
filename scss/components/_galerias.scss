@@ -1,38 +1,48 @@
+@import "../base/vars";
+
+@mixin medidas-100($width,$height){
+  height: $height;
+  width: $width;
+}
+
 .galerias{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #E6691E;
+    background-color: $naranja;
 
-    gal {
+    .gal {
         width: 80%;
         padding-bottom: 5em;
         padding-top: 2em;  
         padding-left: 1em;
         padding-right: 1em;
-        background-color: #406651;  
-        img{
+        background-color: $verde-fuerte;  
+        .img{
             width: 100%;
             height: 100%;
-            border: outset 0.5dvh #438F91;
+            border: outset 0.5dvh $verde-medio;
             border-radius: 1em;
           }
 
-          fotos_g{
+          .fotos_g{
             display:grid;
             grid-template-columns: 1fr 1fr 1fr;
             row-gap: 2em;
             column-gap: 2em;    
           
+            .medidas{
+              @include medidas-100(100%,100%);
+            }
           }
 
       }
 
-      gal_bebes{
+      .gal_bebes{
         border-radius: 1em 1em 0em 0em;
       }
       
-      gal_accesorios{
+      .gal_accesorios{
         border-radius: 0em 0em 1em 1em;
         margin-bottom: 4em;
       }
