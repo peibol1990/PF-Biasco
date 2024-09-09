@@ -48,3 +48,31 @@
       }
 
   }
+
+  .multimedia{
+
+    background-color: $verde-medio;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .frame_video{
+      border: solid 0.5em $naranja;
+      border-radius: 2em;
+    }
+
+    .tt_marcas{
+      text-align: center;
+    }
+
+    .carousel{
+      scale:50%;
+
+      .img{
+        @include medidas-100(100%,100%);
+      }
+    }
+
+  }
+
+  
