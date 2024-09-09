@@ -15,7 +15,7 @@
   }
   
   .descripcion {
-    color: $naranja;
+    color: $verde-claro;
     font-size: 1.5em;
     width: 70%;
     text-align: justify;  
@@ -24,26 +24,23 @@
   }
   
   .gal_index {
+
     width: 80%;
     margin-top: 3em;
 
-    img {  
+    .img {  
       border: solid 3px $naranja;
-      border-radius: 2em;
-    
+      border-radius: 2em;  
     }
 
-    .iframe {  
+    .iframe {        
       text-align: center;  
       margin-top: 4em;
       border: solid 3px $naranja;
       border-radius: 2em;
       margin-bottom: 2em;
     }
-  }
-  
-  
-  
+  }  
 
   .pie_de_pag {
     background-color: $verde-fuerte;
@@ -64,7 +61,6 @@
     }
     }   
   }
-
 
   .selector {
     display: flex;
