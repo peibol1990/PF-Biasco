@@ -51,7 +51,7 @@
 
   .multimedia{
 
-    background-color: $verde-medio;
+    background-image: url(../../multimedia/isla/fondo_animado_pixelart.gif);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,6 +73,8 @@
       img{
         @include medidas-100(100%,100%);
       }
+
+      
     }
 
   }

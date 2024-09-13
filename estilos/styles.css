@@ -51,7 +51,7 @@
 }
 
 .multimedia {
-  background-color: #438F91;
+  background-image: url(../../multimedia/isla/fondo_animado_pixelart.gif);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -125,7 +125,7 @@
 }
 
 .principal {
-  background-color: #18ACDB;
+  background-image: url("../../multimedia/isla/fondo_animado_pixelart.gif");
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -137,7 +137,7 @@
 }
 
 .descripcion {
-  color: #1EE4E6;
+  color: white;
   font-size: 1.5em;
   width: 70%;
   text-align: justify;
@@ -203,11 +203,37 @@
   width: 100%;
 }
 
-.formulario {
-  background-color: #438F91;
+.acomodar_main {
+  background-image: url(../../multimedia/isla/fondo_animado_pixelart.gif);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 53em;
 }
-.formulario .input {
-  width: 10em;
+.acomodar_main .formulario {
+  border-radius: 1em;
+  color: #1EE4E6;
+  background-color: #18ACDB;
+  width: 40%;
+}
+.acomodar_main .formulario .titulin {
+  margin-left: 1em;
+}
+.acomodar_main .formulario .etiqueta {
+  margin-top: 1em;
+  margin-left: 2em;
+}
+.acomodar_main .formulario .casillero {
+  width: 70%;
+  margin-left: 2em;
+}
+.acomodar_main .formulario .botoncin {
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+.tt_marcas {
+  color: #E69E1E;
 }
 
 @media screen and (max-width: 768px) {

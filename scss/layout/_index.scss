@@ -2,11 +2,11 @@
 
 
 .encabezado {
-    top: 0%;  
-  }
+    top: 0%; 
+   }
 
   .principal {
-    background-color: $azul-clarito;
+    background-image:url("../../multimedia/isla/fondo_animado_pixelart.gif");
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
   }
   
   .descripcion {
-    color: $verde-claro;
+    color: white;
     font-size: 1.5em;
     width: 70%;
     text-align: justify;  
@@ -97,25 +97,47 @@
     width: 100%;
   }
 
-  .formulario{
-    background-color: $verde-medio;
+  .acomodar_main{
 
-    .input{
-      width: 10em;
+    background-image: url(../../multimedia/isla/fondo_animado_pixelart.gif);
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 53em;
+    
+  .formulario{
+    border-radius: 1em;
+    color: $verde-claro;
+    background-color: $azul-clarito;
+    width: 40%;   
+
+    .titulin{
+      margin-left: 1em;
     }
+
+    .etiqueta{      
+      margin-top: 1em;
+      margin-left: 2em; 
+    }
+    .casillero{
+      width: 70%;
+      margin-left: 2em;      
+    }
+
+    .botoncin{
+      margin-top: 1em;
+      margin-left: 2em;
+    }  
+
+  }
     
   }
 
-  .presentacion{
-
-    puertas{
-      display:none;
-    }
-
-    nubes{
-      display: none;
-    }
+  .tt_marcas{
+    color: $amarillo;
   }
+
+  
 
 
   
