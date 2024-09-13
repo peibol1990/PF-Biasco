@@ -24,7 +24,7 @@
   padding-top: 2em;
   padding-left: 1em;
   padding-right: 1em;
-  background-color: #406651;
+  background-color: #3C4D86;
 }
 .galerias .gal .img {
   width: 100%;
@@ -56,17 +56,18 @@
   flex-direction: column;
   align-items: center;
 }
-.multimedia .frame_video {
+.multimedia frame_video {
   border: solid 0.5em #E6691E;
   border-radius: 2em;
 }
-.multimedia .tt_marcas {
+.multimedia tt_marcas {
   text-align: center;
 }
 .multimedia .carousel {
-  scale: 50%;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
-.multimedia .carousel .img {
+.multimedia .carousel img {
   height: 100%;
   width: 100%;
 }
@@ -78,26 +79,26 @@
   margin-right: 40%;
 }
 .navbar .navbar_ppal {
-  background-color: #406651;
+  background-color: #3C4D86;
 }
 .navbar .navbar_ppal .menu_titulo {
   text-decoration: none;
 }
 .navbar .menu_logo {
-  background-color: #406651;
+  background-color: #3C4D86;
 }
 .navbar .menu_logo:hover {
-  background-color: #438F91;
+  background-color: #18ACDB;
 }
 .navbar .menu_logo img {
   height: 5em;
   width: 5em;
 }
 .navbar .menu_desplegable {
-  background-color: #406651;
+  background-color: #3C4D86;
 }
 .navbar .menu_desplegable:hover {
-  background-color: #438F91;
+  background-color: #18ACDB;
 }
 .navbar li a {
   color: #1EE4E6;
@@ -124,12 +125,15 @@
 }
 
 .principal {
-  background-color: #438F91;
-  margin-top: 2em;
+  background-color: #18ACDB;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.principal acomodacion {
+  height: 100%;
+  width: 100%;
 }
 
 .descripcion {
@@ -145,11 +149,11 @@
   width: 80%;
   margin-top: 3em;
 }
-.gal_index .img {
+.gal_index img {
   border: solid 3px #E6691E;
   border-radius: 2em;
 }
-.gal_index .iframe {
+.gal_index iframe {
   text-align: center;
   margin-top: 4em;
   border: solid 3px #E6691E;
@@ -158,7 +162,7 @@
 }
 
 .pie_de_pag {
-  background-color: #406651;
+  background-color: #3C4D86;
   text-align: center;
   padding-top: 0.5em;
 }
@@ -166,7 +170,7 @@
   font-size: 1.5em;
   color: #1EE4E6;
 }
-.pie_de_pag .redes a img {
+.pie_de_pag redes a img {
   height: 50px;
   width: 50px;
 }
@@ -187,7 +191,7 @@
 
 .filtros {
   background-color: #E6691E;
-  color: #406651;
+  color: #3C4D86;
   padding: 2em;
 }
 

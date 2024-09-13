@@ -6,12 +6,15 @@
   }
 
   .principal {
-    background-color: $verde-medio;
-    margin-top: 2em;
+    background-color: $azul-clarito;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    acomodacion{
+      @include medidas-100(100%,100%);
+    }
   }
   
   .descripcion {
@@ -22,18 +25,20 @@
     font-weight: bolder;
     padding-top: 2em;
   }
+
+  
   
   .gal_index {
 
     width: 80%;
     margin-top: 3em;
 
-    .img {  
+    img {  
       border: solid 3px $naranja;
       border-radius: 2em;  
     }
 
-    .iframe {        
+    iframe {        
       text-align: center;  
       margin-top: 4em;
       border: solid 3px $naranja;
@@ -52,7 +57,7 @@
         color: $verde-claro;
       }
 
-      .redes{
+      redes{
          a{ 
             img {
         height: 50px;
@@ -100,6 +105,8 @@
     }
     
   }
+
+  
 
 
   

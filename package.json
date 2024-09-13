@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@google/model-viewer": "^3.5.0",
     "init": "^0.1.2",
     "nmp": "^1.0.3"
   }
